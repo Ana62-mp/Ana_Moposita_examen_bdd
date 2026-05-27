@@ -20,7 +20,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"codigo\": \"EQ-999\",\n  \"precioBoleto\": 275.50,\n  \"asientosDisponibles\": 30\n}"
+          "raw": "{\n  \"codigo\": \"EQ-999\",\n  \"precioBoleto\": 275.50,\n  \"asientosDisponibles\": 30,\n  \"destino\": \"Quito\"\n}"
         },
         "url": {
           "raw": "http://localhost:8080/api/vuelos",
@@ -90,10 +90,10 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"codigo\": \"EQ-111\",\n  \"precioBoleto\": 315.75,\n  \"asientosDisponibles\": 18\n}"
+          "raw": "{\n  \"codigo\": \"EQ-111\",\n  \"precioBoleto\": 315.75,\n  \"asientosDisponibles\": 18,\n  \"destino\": \"Madrid\"\n}"
         },
         "url": {
-          "raw": "http://localhost:8080/api/vuelos/1",
+          "raw": "http://localhost:8080/api/vuelos/3",
           "protocol": "http",
           "host": [
             "localhost"
@@ -102,7 +102,7 @@
           "path": [
             "api",
             "vuelos",
-            "1"
+            "3"
           ]
         }
       },
