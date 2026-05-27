@@ -66,3 +66,9 @@ WHERE asientos_disponibles = 0;
 
 -- Verificar datos restantes
 SELECT * FROM vuelos;
+
+
+--ALTER PARTE 3
+
+ALTER TABLE vuelos 
+ADD COLUMN destino VARCHAR(100);
